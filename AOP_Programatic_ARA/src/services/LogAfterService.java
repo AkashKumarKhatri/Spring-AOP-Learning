@@ -13,7 +13,7 @@ public class LogAfterService implements AfterReturningAdvice {
 
 	@Override
 	public void afterReturning(java.lang.Object arg0, Method arg1, java.lang.Object[] arg2, java.lang.Object arg3)
-			throws Throwable {
+			throws Throwable { 
 		Log log = LogFactory.getLog(Bank.class);
 		log.info("deposit method..");
 	}
